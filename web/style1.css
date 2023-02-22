@@ -1,0 +1,29 @@
+.gallery{
+    width: 400px;
+    height: 600px;
+    animation-name: izy;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    transform: translateX(18%);
+    margin-top: 3px;
+    box-shadow: 0 2px 4px 2px rgba(126, 119, 119, 0.733);
+    margin-bottom: 40px;
+  }
+  @keyframes izy{
+    0%{ background-image: url(img/gal1.jpg);
+    backgroud:cover;
+    backgroud-repeat: no-repeat;
+    }
+    25%{ background-image: url(img/gal2.jpg);
+        backgroud:cover;
+        backgroud-repeat: no-repeat;}
+    50%{ background-image: url(img/gal3.jpg);
+        backgroud:cover;
+        backgroud-repeat: no-repeat;}
+    75%{ background-image: url(img/gal4.jpg);
+        backgroud:cover;
+        backgroud-repeat: no-repeat;}
+    100%{ background-image: url(img/gal1.jpg);
+        backgroud:cover;
+        backgroud-repeat: no-repeat;}
+  }
